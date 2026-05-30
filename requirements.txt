@@ -1,0 +1,35 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# LangChain ecosystem
+langchain==0.3.9
+langchain-core==0.3.21
+langchain-groq==0.2.2
+langchain-cohere==0.3.3
+langchain-pinecone==0.2.0
+langchain-community==0.3.9
+
+# Vector DB
+pinecone-client==5.0.1
+
+# Cohere
+cohere==5.11.4
+
+# Document loaders
+pypdf==5.1.0
+python-docx==1.1.2
+openpyxl==3.1.5
+unstructured[pdf,docx]==0.16.5
+
+# Configuration
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# HTTP client (for calling OpenWA API)
+httpx==0.28.0
+
+# Utilities
+tiktoken==0.8.0
