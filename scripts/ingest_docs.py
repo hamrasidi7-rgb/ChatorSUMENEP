@@ -37,9 +37,9 @@ def main():
 
     total = ingest(args.dir)
     if total:
-        print(f"\n✅ Berhasil mengindeks {total} chunk ke Pinecone.")
+        print(f"\n[OK] Berhasil mengindeks {total} chunk ke Pinecone.")
     else:
-        print("\n⚠️  Tidak ada chunk yang diindeks. Periksa isi folder dokumen.")
+        print("\n[!] Tidak ada chunk yang diindeks. Periksa isi folder dokumen.")
 
 
 if __name__ == "__main__":
